@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* ------------------------------------ *    #VARIABLES
+\* ------------------------------------ */
+/* ------------------------------------ *    #COLORS
+\* ------------------------------------ */
+/*
+ * 1) Color variables involve a two-tier system to keep colors in sync. The
+ *    first tier defines the brand and neutral colors, and the second tier
+ *    defines the application of those colors.
+ */
+/*
+ * Primary & Secondary Colors
+ * 1) Brand color variables use English names to define colors to make palettes easier to
+ *    identify.
+ * 2) Brand color variables should typically not be used directly in Sass partials. Instead, use
+ *    second-tier application colors.
+ *
+ */
+/*
+ * Text Colors
+ * 1) These are non-linked text colors, such as body copy.
+*/
+/*
+ * Heading Colors
+ * 1) These are non-linked heading colors, such as h2, h3, etc.
+ */
+/*
+ * Text Link Colors
+ * 1) These are for linked text, such as a link found within an article,
+ *    navigation link, footer link, etc.
+ */
+/*
+ * Border Colors
+ * 1) Border colors are used as decoration or dividers, such as as a seperator
+ *    for navigation items, block borders, etc.
+ */
+/* ------------------------------------ *    #TYPOGRAPHY
+\* ------------------------------------ */
+/* ------------------------------------ *    #LAYOUT
+\* ------------------------------------ */
+/**
+ * Spacing Defaults
+ */
+/* ------------------------------------ *    #BORDERS
+\* ------------------------------------ */
+/* ------------------------------------ *    #ANIMATION
+\* ------------------------------------ */
+/* ------------------------------------ *    #BREAKPOINTS
+\* ------------------------------------ */
+/**
+ * Breakpoints
+ */
+/** Import everything from autoload */
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+/** Import theme styles */
+/* ------------------------------------ *  $COMMON
+\* ------------------------------------ */
+/**
+ * @license
+ * MyFonts Webfont Build ID 3436186, 2017-08-13T11:57:08-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed ../../fonts/Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AvenirNextLTPro-Regular by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-regular/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ *
+ * Webfont: AvenirNextLTPro-Demi by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ *
+ * Webfont: AvenirNextLTPro-It by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ *
+ * Webfont: AvenirNextLTPro-DemiIt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir-next-pro/pro-demi-italic/
+ * Copyright: Copyright &#x00A9; 2004 - 2007 Linotype GmbH, www.linotype.com. All rights reserved. This font software may not be reproduced, modified, disclosed or transferred without the express written approval of Linotype GmbH. Avenir is a trademark of Linotype GmbH
+ *
+ * Webfont: PaulGroteskSoft-Bold by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/bold/
+ * Copyright: Copyright &#x00A9; 2016 by Fargus Meiser +  Lukas Bischoff artill. All rights reserved.
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3436186
+ * Licensed pageviews: 500,000
+ *
+ * © 2017 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/346e9a");
+@font-face {
+  font-family: 'AvenirNextLTPro-Regular';
+  src: url("../../fonts/webfonts/346E9A_0_0.eot");
+  src: url("../../fonts/webfonts/346E9A_0_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_0_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_0_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_0_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'AvenirNextLTPro-Demi';
+  src: url("../../fonts/webfonts/346E9A_1_0.eot");
+  src: url("../../fonts/webfonts/346E9A_1_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_1_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_1_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_1_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'AvenirNextLTPro-It';
+  src: url("../../fonts/webfonts/346E9A_2_0.eot");
+  src: url("../../fonts/webfonts/346E9A_2_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_2_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_2_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_2_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'AvenirNextLTPro-DemiIt';
+  src: url("../../fonts/webfonts/346E9A_3_0.eot");
+  src: url("../../fonts/webfonts/346E9A_3_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_3_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_3_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_3_0.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'PaulGroteskSoft-Bold';
+  src: url("../../fonts/webfonts/346E9A_4_0.eot");
+  src: url("../../fonts/webfonts/346E9A_4_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_4_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_4_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_4_0.ttf") format("truetype"); }
+
+/* ------------------------------------ *    #BODY
+\* ------------------------------------ */
+/**
+ * Body base styles
+ */
+body {
+  background: white;
+  color: #262626;
+  font: 100%/1.5 AvenirNextLTPro-Regular, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; }
+
+/* ------------------------------------ *    #TEXT
+\* ------------------------------------ */
+/*
+ * Paragraph base styles
+ */
+p {
+  margin: 0 0 1em;
+  padding: 0; }
+
+.brand {
+  font-size: 6em; }
+
+/* ------------------------------------ *    #LINKS
+\* ------------------------------------ */
+/**
+ * Links
+ */
+a {
+  color: #396dff;
+  text-decoration: none;
+  outline: 0;
+  transition: all 0.2s ease; }
+  a:hover, a:focus {
+    color: #2ad891; }
+
+/* ------------------------------------ *  $COMPONENTS
+\* ------------------------------------ */
+/**
+ * WordPress Generated Classes
+ * @see http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+ */
+/** Media alignment */
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto; }
+
+.aligncenter {
+  display: block;
+  margin: 0.5em auto;
+  height: auto; }
+
+.alignleft,
+.alignright {
+  margin-bottom: 0.5em;
+  height: auto; }
+
+@media (min-width: 30rem) {
+  .alignleft {
+    float: left;
+    margin-right: 0.5em; }
+  .alignright {
+    float: right;
+    margin-left: 0.5em; } }
+
+/** Captions */
+/** Text meant only for screen readers */
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  color: #000;
+  background: #fff; }
+
+/* ------------------------------------ *  $LAYOUTS
+\* ------------------------------------ */

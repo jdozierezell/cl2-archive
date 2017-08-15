@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "patternlab:init": "patternlab init",
+    "patternlab:build": "patternlab build",
+    "patternlab:serve": "patternlab serve -w"
+  },
+  "devDependencies": {
+    "patternlab-node-cli": "pattern-lab/patternlab-node-cli"
+  },
+  "dependencies": {
+    "edition-node": "^0.0.4",
+    "starterkit-mustache-base": "pattern-lab/starterkit-mustache-base"
+  }
+}

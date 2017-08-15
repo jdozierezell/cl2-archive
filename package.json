@@ -83,7 +83,10 @@
     "lint": "npm run -s lint:scripts && npm run -s lint:styles",
     "lint:scripts": "eslint resources/assets/scripts resources/assets/build",
     "lint:styles": "stylelint resources/assets/styles/**/*.{css,sass,scss,sss,less}",
-    "test": "npm run -s lint"
+    "test": "npm run -s lint",
+    "patternlab:serve": "cd patternlab && patternlab serve -w",
+    "patternlab:sass": "node-sass resources/assets/styles/main.scss patternlab/source/css/style.css -w resources/assets/styles",
+    "patternlab": "concurrently \"yarn patternlab:serve\" \"yarn patternlab:sass\""
   },
   "engines": {
     "node": ">= 6.9.4"
@@ -96,6 +99,7 @@
     "buble-loader": "^0.4.1",
     "cache-loader": "~1.0",
     "clean-webpack-plugin": "^0.1.16",
+    "concurrently": "^3.5.0",
     "copy-globs-webpack-plugin": "^0.2.0",
     "css-loader": "^0.28.4",
     "cssnano": "~4.0.0-rc.1",

@@ -8,3 +8,6 @@ npm-debug.log
 yarn-error.log
 vendor
 resources/assets/config-local.json
+patternlab/node_modules
+patternlab/pattern_exports
+patternlab/public
