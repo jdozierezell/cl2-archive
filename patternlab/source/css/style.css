@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* ------------------------------------ *  $ABSTRACTS
+\* ------------------------------------ */
 /* ------------------------------------ *    #VARIABLES
 \* ------------------------------------ */
 /* ------------------------------------ *    #COLORS
@@ -50,16 +52,6 @@
 /**
  * Breakpoints
  */
-/** Import everything from autoload */
-/**
- * Import npm dependencies
- *
- * Prefix your imports with `~` to grab from node_modules/
- * @see https://github.com/webpack-contrib/sass-loader#imports
- */
-/** Import theme styles */
-/* ------------------------------------ *  $COMMON
-\* ------------------------------------ */
 /**
  * @license
  * MyFonts Webfont Build ID 3436186, 2017-08-13T11:57:08-0400
@@ -123,6 +115,10 @@
   src: url("../../fonts/webfonts/346E9A_4_0.eot");
   src: url("../../fonts/webfonts/346E9A_4_0.eot?#iefix") format("embedded-opentype"), url("../../fonts/webfonts/346E9A_4_0.woff2") format("woff2"), url("../../fonts/webfonts/346E9A_4_0.woff") format("woff"), url("../../fonts/webfonts/346E9A_4_0.ttf") format("truetype"); }
 
+/* ------------------------------------ *  $VENDOR
+\* ------------------------------------ */
+/* ------------------------------------ *  $BASE
+\* ------------------------------------ */
 /* ------------------------------------ *    #BODY
 \* ------------------------------------ */
 /**
@@ -207,5 +203,5 @@ a {
   color: #000;
   background: #fff; }
 
-/* ------------------------------------ *  $LAYOUTS
+/* ------------------------------------ *  $LAYOUT
 \* ------------------------------------ */
