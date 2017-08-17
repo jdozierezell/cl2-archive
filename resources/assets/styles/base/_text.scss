@@ -10,6 +10,42 @@ p {
   padding: 0;
 }
 
+/*
+ * Header base styles
+ */
+h1 {
+  font-family: $font-paul;
+  font-size: $ms-3;
+  line-height: $ms-1;
+  margin: $ms-base 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: $font-demi;
+  font-size: $ms-2;
+  line-height: $ms-1;
+  margin: $ms-base 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: $font-demi;
+  font-size: $ms-1;
+  line-height: $ms-1;
+  margin: $ms-base 0;
+  padding: 0;
+}
+
+h4,
+h5,
+h6 {
+  font-family: $font-demi;
+  font-size: $ms-base;
+  margin: $ms-base 0;
+  padding: 0;
+}
+
 .brand {
   font-size: 6em;
 }

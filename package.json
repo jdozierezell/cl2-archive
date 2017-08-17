@@ -84,9 +84,10 @@
     "lint:scripts": "eslint resources/assets/scripts resources/assets/build",
     "lint:styles": "stylelint resources/assets/styles/**/*.{css,sass,scss,sss,less}",
     "test": "npm run -s lint",
+    "patternlab:build": "cd patternlab && patternlab build",
     "patternlab:serve": "cd patternlab && patternlab serve -w",
     "patternlab:sass": "node-sass resources/assets/styles/main.scss patternlab/source/css/style.css -w resources/assets/styles",
-    "patternlab": "concurrently \"yarn patternlab:serve\" \"yarn patternlab:sass\""
+    "patternlab": "yarn patternlab:build && concurrently \"yarn patternlab:serve\" \"yarn patternlab:sass\""
   },
   "engines": {
     "node": ">= 6.9.4"

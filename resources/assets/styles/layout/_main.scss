@@ -1,0 +1,22 @@
+.main {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main--single-item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.main--single-item__button-wrapper {
+  margin: $ms-3 0;
+}
+
+.main--single-item::after {
+  content: '';
+  clear: both;
+  display: table;
+}

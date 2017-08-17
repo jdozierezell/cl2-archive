@@ -1,0 +1,11 @@
+.site-header {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $color-green;
+}
+
+.site-header__logo {
+  padding: $ms-3 $ms-5 $ms-3 0;
+}

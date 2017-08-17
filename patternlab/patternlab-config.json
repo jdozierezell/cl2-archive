@@ -58,8 +58,12 @@
     "tools-all": false,
     "tools-docs": false
   },
-  "ishMinimum": "240",
-  "ishMaximum": "2600",
+  "ishViewportRange": {
+    "s": [384, 636],
+    "m": [749, 768],
+    "l": [800, 1168],
+    "xl": [1424, 1488]
+  },
   "patternStateCascade": [
     "inprogress",
     "inreview",

@@ -8,7 +8,9 @@
 body {
   background: $color-white;
   color: $color-brand-dark-gray;
-  font: 100%/1.5 $font;
+  font-family: $font;
+  font-size: $ms-base;
+  line-height: $ms-2;
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
   display: flex;

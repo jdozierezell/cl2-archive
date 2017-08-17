@@ -1,0 +1,12 @@
+{
+  "title": {
+    "titleText": "About AFSP",
+    "titleClass": "col-4"
+  },
+  "img": {
+    "containerClass": "img-container__main col-2",
+    "src": "http://placehold.it/1192x2700"
+  },
+  "descriptionClass": "col-2",
+  "buttonWrapperClass": "main--single-item__button-wrapper"
+}

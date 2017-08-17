@@ -1,0 +1,16 @@
+input[type="text"] {
+  border-radius: $ms--3;
+  border: 1px solid $color-brand-light-gray;
+  padding: $ms--1;
+  font-size: $ms-base;
+}
+
+input[type="text"]::placeholder {
+  color: $color-brand-light-gray;
+}
+
+input[type="text"]:focus {
+  background-color: $color-brand-dark-gray;
+  color: $color-white;
+  outline: none;
+}

@@ -1,0 +1,23 @@
+.col-1 {
+  width: calc(25% - (#{$ms-base} * 2));
+}
+
+.col-2 {
+  width: calc(50% - (#{$ms-base} * 2));
+}
+
+.col-3 {
+  width: calc(75% - (#{$ms-base} * 2));
+}
+
+.col-4 {
+  width: calc(100% - (#{$ms-base} * 2));
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  margin-left: $ms-base;
+  margin-right: $ms-base;
+}
