@@ -1,0 +1,18 @@
+.img-container {
+  object-fit: contain;
+}
+
+.img-container__main {
+  margin-bottom: $ms-1;
+}
+
+.img-container__list-item {
+  background-color: $color-brand-light-gray;
+}
+
+@media (min-width: $bp-med) {
+  .img-container__main {
+    padding: 0 $ms-3;
+    border-right: 1px solid $color-brand-dark-gray;
+  }
+}

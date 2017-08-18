@@ -10,6 +10,8 @@
  * Major 3rd scale based on http://www.modularscale.com/?1&em&1.25
  */
 
+$ms-8: 5.96em;
+$ms-7: 4.768em;
 $ms-6: 3.815em;
 $ms-5: 3.052em;
 $ms-4: 2.441em;
@@ -96,6 +98,14 @@ $font-paul : PaulGroteskSoft-Bold, Arial, sans-serif;
     #LAYOUT
 \* ------------------------------------ */
 $l-max-width: 80em;
+
+/**
+ * Column Widths
+ */
+$col-1: calc(25% - (#{$ms-base} * 2));
+$col-2: calc(50% - (#{$ms-base} * 2));
+$col-3: calc(75% - (#{$ms-base} * 2));
+$col-4: calc(100% - (#{$ms-base} * 2));
 
 /**
  * Spacing Defaults

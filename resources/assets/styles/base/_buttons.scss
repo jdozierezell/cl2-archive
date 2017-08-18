@@ -1,8 +1,8 @@
 button,
 .btn {
-  background-color: $color-brand-blue;
   color: $color-white;
   font-size: $ms-base;
+  text-align: center;
   margin: $ms-base;
   padding: $ms-1;
   border: none;
@@ -23,7 +23,6 @@ button:last-child,
 
 button:hover,
 .btn:hover {
-  background-color: darken($color-brand-blue, 10);
   color: $color-white;
 }
 
@@ -33,18 +32,18 @@ button:hover,
   color: $color-white;
 }
 
-.btn--green {
-  background-color: $color-green;
+.btn__icon {
+  padding: $ms-1 $ms-4;
 }
 
-.btn--green:hover {
+.btn.bg-brand-blue:hover {
+  background-color: darken($color-brand-blue, 10);
+}
+
+.btn.bg-green:hover {
   background-color: darken($color-green, 10);
 }
 
-.button--poppy {
-  background-color: $color-poppy;
-}
-
-.button--poppy:hover {
+.btn.bg-poppy:hover {
   background-color: darken($color-poppy, 10);
 }

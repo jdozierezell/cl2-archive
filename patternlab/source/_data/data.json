@@ -1,6 +1,10 @@
 {
-  "btnText": "Button",
-  "btnHref": "#",
+  "btn": {
+    "text": "Button",
+    "href": "#",
+    "class": "bg-brand-blue",
+    "icon": "fa-search"
+  },
   "img": {
     "src": "http://placehold.it/1080",
     "alt": "If the image doesn't show, I'll do the job."
@@ -13,6 +17,7 @@
     "label": "Text Input",
     "placeholder": "I'm a placeholder"
   },
+  "itemTitle": "Sample Item",
   "headline": {
     "short": "Lorizzle pimpin' dolizzle sit amet I",
     "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"

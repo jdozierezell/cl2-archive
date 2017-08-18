@@ -1,0 +1,58 @@
+{
+  "1": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "2": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "3": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "4": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "5": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "6": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "7": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  },
+  "8": {
+    "img": {
+      "src": "http://placehold.it/300x400",
+      "alt": "This is a list item image.",
+      "containerClass": "img-container__list-item"
+    }
+  }
+}

@@ -3,6 +3,8 @@
 \* ------------------------------------ */
 @import 'abstracts/variables';
 @import 'abstracts/fonts';
+@import 'abstracts/backgrounds';
+@import 'abstracts/columns';
 
 /* ------------------------------------ *\
   $VENDOR
@@ -17,18 +19,22 @@
 @import 'base/links';
 @import 'base/buttons';
 @import 'base/images';
-@import 'base/columns';
 @import 'base/inputs';
+@import 'base/labels';
 
 /* ------------------------------------ *\
   $COMPONENTS
 \* ------------------------------------ */
 @import 'components/wp-classes';
-@import 'components/img-container';
+@import 'components/img-containers';
 @import 'components/site-search';
+@import 'components/mobile-nav';
+@import 'components/list-items';
+@import 'components/item-list';
 
 /* ------------------------------------ *\
   $LAYOUT
 \* ------------------------------------ */
 @import 'layout/site-header';
+@import 'layout/site-footer';
 @import 'layout/main';

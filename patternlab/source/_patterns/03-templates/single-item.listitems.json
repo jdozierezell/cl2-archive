@@ -1,9 +1,0 @@
-{
-  "1": {
-    "btnText": "Download"
-  },
-  "2": {
-    "btnText": "Add to Favorites",
-    "btnClass": "btn--poppy"
-  }
-}

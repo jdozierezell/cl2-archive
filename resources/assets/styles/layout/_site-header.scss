@@ -7,5 +7,29 @@
 }
 
 .site-header__logo {
-  padding: $ms-3 $ms-5 $ms-3 0;
+  padding: $ms-3 $ms-3 $ms-3 0;
+}
+
+.site-header__logo img {
+  max-height: $ms-8;
+}
+
+.site-header__search {
+  display: none;
+  font-size: $ms-2;
+}
+
+.site-header__search input {
+  padding: $ms--3;
+}
+
+.site-header__search button {
+  line-height: initial;
+  padding: $ms--3;
+}
+
+@media (min-width: $bp-med) {
+  .site-header__search {
+    display: block;
+  }
 }

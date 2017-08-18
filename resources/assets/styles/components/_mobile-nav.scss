@@ -1,0 +1,19 @@
+.mobile-nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.mobile-nav > * {
+  flex-grow: 1;
+  margin: $ms--2;
+}
+
+@media (min-width: $bp-med) {
+  .mobile-nav {
+    display: none;
+  }
+}

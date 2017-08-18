@@ -1,0 +1,92 @@
+.col-1,
+.xs-col-1 {
+  width: $col-1;
+}
+
+.col-2,
+.xs-col-2 {
+  width: $col-2;
+}
+
+.col-3,
+.xs-col-3 {
+  width: $col-3;
+}
+
+.col-4,
+.xs-col-4,
+.s-col-4,
+.m-col-4,
+.l-col-4 {
+  width: $col-4;
+}
+
+.s-col-1,
+.m-col-1,
+.l-col-1,
+.s-col-2,
+.m-col-2,
+.l-col-2,
+.s-col-3,
+.m-col-3,
+.l-col-3 {
+  @extend .col-4;
+}
+
+@media (min-width: $bp-small) {
+  .s-col-1 {
+    width: $col-1;
+  }
+
+  .s-col-2 {
+    width: $col-2;
+  }
+
+  .s-col-3 {
+    width: $col-3;
+  }
+}
+
+@media (min-width: $bp-med) {
+  .m-col-1 {
+    width: $col-1;
+  }
+
+  .m-col-2 {
+    width: $col-2;
+  }
+
+  .m-col-3 {
+    width: $col-3;
+  }
+}
+
+@media (min-width: $bp-large) {
+  .l-col-1 {
+    width: $col-1;
+  }
+
+  .l-col-2 {
+    width: $col-2;
+  }
+
+  .l-col-3 {
+    width: $col-3;
+  }
+}
+
+.col-1,
+.m-col-1,
+.l-col-1,
+.col-2,
+.m-col-2,
+.l-col-2,
+.col-3,
+.m-col-3,
+.l-col-3,
+.col-4,
+.m-col-4,
+.l-col-4 {
+  margin-left: auto;
+  margin-right: auto;
+}

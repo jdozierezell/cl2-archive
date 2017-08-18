@@ -1,0 +1,27 @@
+.list-item {
+  width: $col-4;
+  list-style: none;
+  border-radius: $ms--2;
+  overflow: hidden;
+  box-shadow: 0 4px 11px 0 rgba($color-brand-dark-gray, 0.5);
+  margin: 0 $ms-base $ms-3;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.list-item__title {
+  margin: $ms-base;
+  text-align: center;
+}
+
+@media (min-width: $bp-small-2) {
+  .list-item {
+    width: $col-2;
+  }
+}
+
+@media (min-width: $bp-large) {
+  .list-item {
+    width: $col-1;
+  }
+}

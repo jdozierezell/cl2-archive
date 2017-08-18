@@ -30,7 +30,7 @@
     "pages"
   ],
   "defaultPattern": "all",
-  "cleanPublic": false,
+  "cleanPublic": true,
   "patternExtension": "mustache",
   "ignored-extensions": [
     "scss",
@@ -58,12 +58,8 @@
     "tools-all": false,
     "tools-docs": false
   },
-  "ishViewportRange": {
-    "s": [384, 636],
-    "m": [749, 768],
-    "l": [800, 1168],
-    "xl": [1424, 1488]
-  },
+  "ishViewportMinimum": 384,
+  "ishViewportMaximum": 1488,
   "patternStateCascade": [
     "inprogress",
     "inreview",
