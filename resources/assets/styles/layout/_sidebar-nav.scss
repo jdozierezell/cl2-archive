@@ -1,6 +1,7 @@
 .sidebar-nav {
   width: calc(#{$ms-6} * 5);
   background-color: $color-brand-dark-gray;
+  display: none;
 }
 
 .sidebar-nav__buttons {
@@ -14,4 +15,30 @@
 
 .sidebar-nav__buttons a:hover {
   
+}
+
+.sidebar-nav__links {
+  padding: 0;
+  margin: $ms-1;
+  font-size: $ms-2;
+  font-family: $font-paul;
+  color: $color-white;
+  list-style: none;
+}
+
+.sidebar-nav__link {
+  margin-bottom: $ms--1;
+  font-size: $ms--1;
+}
+
+.sidebar-nav__link::after {
+  font-family: 'FontAwesome';
+  content: $fa-var-caret-right;
+  padding-left: $ms--2;
+}
+
+@media (min-width: $bp-med) {
+  .sidebar-nav {
+    display: block;
+  }
 }
