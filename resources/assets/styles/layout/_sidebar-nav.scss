@@ -1,0 +1,17 @@
+.sidebar-nav {
+  width: calc(#{$ms-6} * 5);
+  background-color: $color-brand-dark-gray;
+}
+
+.sidebar-nav__buttons {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  font-size: $ms-2;
+  margin: $ms-1;
+}
+
+.sidebar-nav__buttons a:hover {
+  
+}

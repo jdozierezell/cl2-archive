@@ -7,16 +7,19 @@
 }
 
 .site-header__logo {
-  padding: $ms-3 $ms-3 $ms-3 0;
+  padding: $ms-3 0;
+  text-align: center;
 }
 
 .site-header__logo img {
+  max-width: 100%;
   max-height: $ms-8;
 }
 
 .site-header__search {
   display: none;
   font-size: $ms-2;
+  border: 0;
 }
 
 .site-header__search input {

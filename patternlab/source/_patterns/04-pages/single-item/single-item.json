@@ -1,16 +1,16 @@
 {
-  "siteSearchClass": "site-header__search m-col-3",
+  "siteSearchClass": "site-header__search m-col-9",
   "textInput": {
     "placeholder": "What can we help you find?"
   },
   "title": {
     "titleText": "About AFSP",
-    "titleClass": "col-4"
+    "titleClass": "col-12"
   },
   "img": {
-    "containerClass": "img-container__main m-col-2",
+    "containerClass": "img-container__main m-col-6",
     "src": "http://placehold.it/1192x2700"
   },
-  "descriptionClass": "m-col-2",
+  "descriptionClass": "m-col-6",
   "buttonWrapperClass": "main--single-item__button-wrapper"
 }

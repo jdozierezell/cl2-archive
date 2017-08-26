@@ -1,4 +1,5 @@
 .main {
+  width: $col-12;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -21,4 +22,10 @@
   content: '';
   clear: both;
   display: table;
+}
+
+@media (min-width: $bp-med) {
+  .main {
+    width: calc(#{$col-12} - (#{$ms-6} * 5) - 2em); // full width minus width of sidebar-nav
+  }
 }

@@ -2,4 +2,4 @@
 title: Item List Template
 ---
 
-This is the item list template.
+This is the items list template.

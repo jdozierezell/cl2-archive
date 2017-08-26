@@ -3,6 +3,7 @@
 \* ------------------------------------ */
 @import 'abstracts/variables';
 @import 'abstracts/fonts';
+@import 'abstracts/colors';
 @import 'abstracts/backgrounds';
 @import 'abstracts/columns';
 
@@ -30,11 +31,13 @@
 @import 'components/site-search';
 @import 'components/mobile-nav';
 @import 'components/list-items';
-@import 'components/item-list';
+@import 'components/items-list';
 
 /* ------------------------------------ *\
   $LAYOUT
 \* ------------------------------------ */
 @import 'layout/site-header';
 @import 'layout/site-footer';
+@import 'layout/sidebar-nav';
+@import 'layout/page-content';
 @import 'layout/main';

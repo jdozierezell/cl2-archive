@@ -1,49 +1,5 @@
 button,
 .btn {
-  color: $color-white;
   font-size: $ms-base;
-  text-align: center;
-  margin: $ms-base;
-  padding: $ms-1;
   border: none;
-  border-radius: $ms--2;
-  cursor: pointer;
-  transition: background-color $anim-speed-02 $anim-ease;
-}
-
-button:first-child,
-.btn:first-child {
-  margin-left: 0;
-}
-
-button:last-child,
-.btn:last-child {
-  margin-right: 0;
-}
-
-button:hover,
-.btn:hover {
-  color: $color-white;
-}
-
-.btn:active,
-.btn:focus,
-.btn:visited {
-  color: $color-white;
-}
-
-.btn__icon {
-  padding: $ms-1 $ms-4;
-}
-
-.btn.bg-brand-blue:hover {
-  background-color: darken($color-brand-blue, 10);
-}
-
-.btn.bg-green:hover {
-  background-color: darken($color-green, 10);
-}
-
-.btn.bg-poppy:hover {
-  background-color: darken($color-poppy, 10);
 }
