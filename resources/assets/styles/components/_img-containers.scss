@@ -4,6 +4,7 @@
 
 .img-container__main {
   margin-bottom: $ms-1;
+  max-height: 100vh;
 }
 
 @media (min-width: $bp-med) {

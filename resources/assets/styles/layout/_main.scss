@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: $ms-base;
 }
 
 .main--single-item {
@@ -16,6 +17,10 @@
   margin: $ms-3 0;
   display: flex;
   align-items: stretch;
+}
+
+.main--single-item__button-wrapper .btn:not(:first-child) {
+  margin-left: $ms-base;
 }
 
 .main--single-item::after {

@@ -16,16 +16,16 @@ p {
 h1 {
   font-family: $font-paul;
   font-size: $ms-3;
-  line-height: $ms-1;
-  margin: $ms--1 0;
+  line-height: $ms-3;
+  margin: $ms-3 0;
   padding: 0;
 }
 
 h2 {
   font-family: $font-demi;
   font-size: $ms-2;
-  line-height: $ms-1;
-  margin: $ms-base 0;
+  line-height: $ms-2;
+  margin: $ms-3 0 $ms-1;
   padding: 0;
 }
 

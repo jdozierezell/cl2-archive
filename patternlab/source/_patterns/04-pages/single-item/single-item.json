@@ -8,6 +8,7 @@
     "titleClass": "col-12"
   },
   "img": {
+    "class": "img--full",
     "containerClass": "img-container__main m-col-6",
     "src": "http://placehold.it/1192x2700"
   },
